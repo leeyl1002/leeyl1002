@@ -1,0 +1,89 @@
+#aaa{
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
+#aaa ol{
+  padding-left: 33px;
+}
+#aaa #bbb{
+  padding-left: 25px;
+}
+#h12 {
+font-size: 50px;
+color: yellowgreen;
+}
+
+h1 {
+text-align: center;
+border-bottom: 3px
+solid grey;
+margin: 0px;
+}
+
+ol {
+border-right: 3px
+solid grey;
+margin: 0;
+width: 100px;
+padding: 20px;
+}
+
+a {
+color:goldenrod;
+text-decoration: none;
+font-size: 30px;
+}
+
+h2 {
+color: lightcoral;
+}
+
+table {
+    width: 45%;
+    border: 1px solid #444444;
+    border-collapse: collapse;
+  }
+  th, td {
+    border: 1px solid #444444;
+    padding: 10px;
+  }
+  th:nth-child(2n), td:nth-child(2n) {
+      background-color: #bbdefb;
+    }
+    th:nth-child(2n+1), td:nth-child(2n+1) {
+      background-color: #e3f2fd;
+    }
+
+@media(max-width: 800px){
+#aaa{
+display:block;
+}
+#bbb{
+border-right:none;
+}
+h1{border-bottom:none;
+}
+ol{
+border:none;
+}
+}
+
+body{
+  background-color:#F5F7F3
+}
+
+.food{
+  width: auto; height: auto;
+  max-width: 350px;
+  max-height: 350px;
+}
+
+.travel{
+  width: auto; height: auto;
+  max-width: 500px;
+  max-height: 500px;
+  border-radius: 20px;
+ -moz-border-radius: 20px;
+ -khtml-border-radius: 20px;
+ -webkit-border-radius: 20px;
+}
